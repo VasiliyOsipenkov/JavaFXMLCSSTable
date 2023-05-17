@@ -7,8 +7,9 @@
 <?import javafx.scene.layout.*?>
 
 <AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="650.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.avalon.javapp.devj140.javafxmlcsstable.DomainsTableController">
-    <children>
-        <TableView fx:id="table" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+    <children> 
+            <Button fx:id="buttonStyle" text="Сhange style" layoutX="0" layoutY="0" onAction="#changeStyle"/>       
+        <TableView fx:id="table" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="25.0">
             <columns>
                 <TableColumn fx:id="idCol" text="Id" minWidth="20"/>
                 <TableColumn fx:id="webNameCol" text="Web name" minWidth="100"/>
@@ -17,6 +18,6 @@
                 <TableColumn fx:id="dateRegCol" text="Registration date" minWidth="150"/>
                 <TableColumn fx:id="countryRegCol" text="Сountry of registration" minWidth="150"/>
             </columns>
-        </TableView>
+        </TableView>            
     </children>
 </AnchorPane>

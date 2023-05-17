@@ -1,0 +1,49 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 17.04.2023, 10:38:56
+    Author     : VOsipenkov
+*/
+
+.table-view .column-header .label{
+    -fx-background-color: gray;
+    -fx-text-fill: black;
+}
+
+.table-view .table-column{
+    -fx-background-color: chocolate;
+    -fx-text-fill: black;
+    
+} 
+
+.text-field {
+    -fx-color: White;
+    -fx-background-color: white;
+    -fx-text-fill: black;
+    -fx-font-family: system-ui;
+}
+.text-field:focus {
+    -fx-background-color: aqua;
+}
+
+.label {
+    -fx-text-fill: brown;
+    -fx-font-size: 11pt;
+    -fx-font-family: system-ui;
+}
+
+.root {
+    -fx-background-color: moccasin;
+}
+
+.button {
+    -fx-background-color: lime;
+    -fx-text-fill: brown;
+    -fx-font-family: system-ui;
+}
+.button:hover {
+    -fx-background-color: aqua;
+}

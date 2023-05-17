@@ -22,6 +22,7 @@ public class JavaFXMLCSSTable extends Application {
         Parent root = FXMLLoader.load(getClass().getResource("JavaFXMLCSSTable.fxml"));
              
         Scene scene = new Scene(root,300,250);
+        scene.getStylesheets().add(getClass().getResource("StyleFirst.css").toString());
         stage.setTitle("JavaFXMLCSSTable");
         stage.setScene(scene);
         //stage.setResizable(false); //в случае если требуется постоянный размер окна

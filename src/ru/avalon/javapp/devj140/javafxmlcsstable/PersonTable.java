@@ -23,6 +23,7 @@ public class PersonTable extends Stage{
             root = FXMLLoader.load(getClass().getResource("PersonTable.fxml"));
             initModality(Modality.APPLICATION_MODAL);
             Scene scene = new Scene(root);
+            scene.getStylesheets().add(getClass().getResource("StyleFirst.css").toString());
             setTitle("Person list");
             setScene(scene);            
             showAndWait();

@@ -33,6 +33,7 @@ public class DomainsTable extends Stage{
             ((DomainsTableController)loader.getController()).initDomainsTable(personId);//инициализируем данные в таблице контроллера
             initModality(Modality.APPLICATION_MODAL);
             Scene scene = new Scene(root);
+            scene.getStylesheets().add(getClass().getResource("StyleFirst.css").toString());
             setTitle("List of user id = " + personId + " domains");
             setScene(scene);            
             showAndWait();

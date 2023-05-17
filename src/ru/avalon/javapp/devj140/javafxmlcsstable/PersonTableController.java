@@ -49,8 +49,8 @@ public class PersonTableController implements Initializable {
         table.setItems(persons);
                     
         // TODO
-    } 
-    
+    }
+      
     @FXML
     public void setOnMouseClicked(MouseEvent event) {
         if(event.getClickCount()==2){
